@@ -1,0 +1,9 @@
+[Unit]
+Description=Auditor server
+
+[Service]
+Type=simple
+ExecStart=/usr/sbin/auditor -S
+
+[Install]
+WantedBy=multi-user.target
