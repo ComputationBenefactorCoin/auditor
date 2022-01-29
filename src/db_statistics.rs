@@ -27,6 +27,7 @@ pub struct DbStatistics {
 }
 
 impl DbStatistics {
+    #[allow(clippy::too_many_arguments)]
     pub fn new(
         blockchain_hash: String,
         cpu_count: u16,

@@ -20,6 +20,7 @@ pub struct ClientStatistics {
 }
 
 impl ClientStatistics {
+    #[allow(clippy::too_many_arguments)]
     pub fn new(
         cpu_count: u16,
         cpu_idle: f32,
