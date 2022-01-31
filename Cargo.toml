@@ -11,7 +11,7 @@ chrono = "0.4"
 clap = "2.33"
 hyper = { version = "0.14", features = ["full"] }
 log = "0.4"
-lz4_flex = "0.8"
+lz4_flex = "0.9"
 num_cpus = "1.13"
 rand = "0.8"
 rsa = "0.5"

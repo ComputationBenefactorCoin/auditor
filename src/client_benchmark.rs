@@ -19,15 +19,19 @@ impl ClientBenchmark {
             st_result,
         }
     }
+
     pub fn mt_2_result(&self) -> &f64 {
         &self.mt_2_result
     }
+
     pub fn mt_4_result(&self) -> &f64 {
         &self.mt_4_result
     }
+
     pub fn mt_8_result(&self) -> &f64 {
         &self.mt_8_result
     }
+
     pub fn st_result(&self) -> &f64 {
         &self.st_result
     }
